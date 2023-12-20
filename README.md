@@ -8,4 +8,8 @@ TODO:
 
 
 Notes:
-Need to think about ways to improve article querying.  For example, "updates on Ukraine" and "Ukraine updates" return different things entirely.  In fact, "Ukraine updates" came back with nothing, but is a reasonable thing to ask.  Might have to query for similar topics if the similarity is under a certain threshold.  Will think about this problem.
+
+Need to think about ways to improve article querying.  For example, "updates on Ukraine" and "Ukraine updates" return different things entirely.  In fact, "Ukraine updates" came back with nothing, but is a reasonable thing to ask.  Might have to query for similar topics if the similarity is under a certain threshold.\n
+Potential fixes:
+- Similarity threshold with vectorspace of topics (I can explain)
+- KG
